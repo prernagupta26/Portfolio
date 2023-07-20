@@ -41,11 +41,11 @@ export default function Profile() {
                                 <Typical
                                     loop={Infinity}
                                     steps={[
-                                        "Enthusiastic Programmer 🔴",
+                                        "Full stack Developer 🔴",
                                         1000,
                                         "Software Developer 💻",
                                         1000,
-                                        "Java Backend Developer 🌐",
+                                        "Java Developer 🌐",
                                         1000,
                                     ]}
                                 />
@@ -60,9 +60,9 @@ export default function Profile() {
                         {/* <button className="btn primary-btn" 
                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
                         > Hire Me </button> */}
-                        <a href="resume.pdf" download="Prerna Gupta.pdf">
+                        {/* <a href="resume.pdf" download="Prerna Gupta.pdf">
                             <button className="btn highlighted-btn">Get Resume</button>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className="profile-picture">
